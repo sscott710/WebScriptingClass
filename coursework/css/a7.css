@@ -1,0 +1,49 @@
+.box1{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: purple;
+    margin: 10px;
+    text-align: center;
+}
+
+.box2{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    color: orange;
+    margin: 10px;
+    text-align: center;
+}
+
+.box3{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    color: aqua;
+    margin: 10px;
+    text-align: center;
+}
+
+.box4{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+
+button{
+    background-color: magenta;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+}

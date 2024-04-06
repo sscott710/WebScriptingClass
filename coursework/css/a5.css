@@ -1,0 +1,82 @@
+body.container {
+    background-color: aquamarine ;
+    
+}
+
+[head]{
+    color: white;
+    background-color: firebrick
+}
+
+footer{
+ background-color: fuchsia;
+ background-image: url("../images/Polka_dots.svg.png"); 
+}
+
+#haiku{
+ 	border-width: 10px;
+    border-style: dashed;
+    border-color: pink;
+    border-radius: 20px; 
+  	padding: 20px;
+    color: red;
+}
+
+#haiku::after{
+    content: "wow such a good haiku";
+    font-size: 25px;
+    color: black;
+}
+
+
+a.c {
+    font-family: Courier;
+  	font-weight: bold;
+}
+
+a.b {
+    font-family: Helvetica;
+  	color: orange;
+  	font-size: 300%;
+}
+
+a.a {
+    font-family: Trebuchet MS;
+  	color: yellow;
+  	font-size: 50%; 
+}
+
+[espn]{
+    text-transform: lowercase;
+}
+
+#randText{
+	color: magenta;
+  	margin: 100px;
+  	border-style: dotted;
+  	border-color: darkgreen;
+  	font-family: Arial;
+ 
+}
+
+#haiku::first-letter {
+    text-transform: capitalize;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+#catPic{
+    opacity: 0.5;
+    border-radius: 50%;
+    background-color: coral;
+    width: 120%;
+}
+
+#cat{
+    width:50%;
+    height: 100px;
+}
+
+section + div {
+    text-transform: uppercase;
+}

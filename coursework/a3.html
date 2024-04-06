@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+
+<head>
+  <!-- CSS only -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"
+    crossorigin="anonymous">
+    <style>
+      .button {
+        background-color: blue;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 32px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      </style>
+</head>
+
+<body class = "container m-5">
+  <div>
+
+    <h1>Assignment 3</h1>
+    <p>Enter two integers in their respective boxes, and then click a button to perform a mathematical operation!
+    </p>
+
+    <form>
+        <legend for="input1">Enter an integer</legend>
+        <input type="number" id="input1" placeholder="Integer 1">
+        <br> </br>
+
+        <legend for="input2">Enter an integer</legend>
+        <input type="number" id="input2" placeholder="Integer 2">
+
+        <br></br>
+
+        <button type="button" class = "button" id="computeSum">+</button>
+        <button type="button" class = "button" id="computeDifference">-</button>
+        <button type="button" class = "button" id="computeMultiplication">*</button>
+        <button type="button" class = "button" id="computeDivison">/</button>
+        <button type="button" class = "button" id="computeExponent">**</button>
+        <button type="button" class = "button" id="computeModulus">%</button>
+
+        <br></br>
+        <legend for="answer">Result</legend>
+        <input type="number" id="answer" placeholder="Result">
+
+    </form>
+
+</div>
+
+  <script src="javascript\a3.js"></script>
+</body>
+
+</html>
+

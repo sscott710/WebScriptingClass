@@ -1,0 +1,89 @@
+<svg 
+    version="1.1" baseProfile="full"
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    width="480" height="500">
+
+    <circle id="myCircle" cx="50" cy="45" r="20" 
+        stroke="yellow" stroke-width="4px" fill="yellow">
+        <animate
+            attributeName="stroke-width"
+            values="1px; 25px; 10px; 25px; 1px"
+            dur="5s"
+            repeatCount="indefinite" /> 
+        <animate
+            attributeName="x"
+            values="20;60;20"
+            dur="5s"
+            repeatCount="indefinite" />
+    </circle>
+
+    <ellipse cx="100" cy="230" rx="50" ry="20" 
+        stroke="black" stroke-width="5px" fill="black" />
+    <circle cx="150" cy="210" r="20"
+            stroke="black" stroke-width="4px" fill="black" />
+    <rect x="50" y="230" width="10" height="40" 
+        stroke="black" stroke-width="4px" fill="black"> </rect>
+    <rect x="70" y="230" width="10" height="30" 
+        stroke="black" stroke-width="4px" fill="black"> </rect>
+    <rect x="110" y="230" width="10" height="45" 
+        stroke="black" stroke-width="4px" fill="black"> </rect>
+    <rect x="130" y="230" width="10" height="30" 
+        stroke="black" stroke-width="4px" fill="black"> </rect>
+    <circle cx="145" cy="205" r="2"
+            stroke="white" stroke-width="2px" fill="white" />
+    <circle cx="160" cy="205" r="2"
+            stroke="white" stroke-width="2px" fill="white" />
+    <polygon points="132,200 142,200 137,185"
+            stroke="black" stroke-width="5px" fill="black"  />
+    <polygon points="158,200 168,200 163,185"
+            stroke="black" stroke-width="5px" fill="black"  />
+    <polyline points="160,220 150,220  " 
+        stroke="brown" stroke-width="5px" fill="transparent" />
+    
+    <text x="240" y="20" class="" font-family="Franklin Gothic Medium">Happy
+            <animateMotion
+            dur="5s"
+            repeatCount="indefinite"
+            path="M 0,0 C 50,0 100,0 0,0" /></text> 
+    <text x="240" y="40" class="" font-family="Franklin Gothic Medium">Halloween!</text>
+
+    <polygon id="poly" points="300,275 200,275 200,200 250,150 300,200" 
+        stroke="orange" stroke-width="5px" fill="orange" />
+    <!--Bezier Curve-->
+    <path d="M 250 150 C 500 320 350 120 350 250" 
+        stroke="green" stroke-width="4px" fill="transparent" />
+
+    <!--Quad curve-->
+    <path d="M 30 205 q 10 30 20 20" 
+        stroke="black" stroke-width="4px" fill="transparent" />
+    
+    <!--Arc-->
+    <circle r="5" cx="220" cy="240" fill="transparent" />
+    <circle r="5" cx="280" cy="240" fill="transparent" />
+    <path d="M 220 240 A 10 10 0 1 0 280 240" 
+        stroke="black" stroke-width="5px" fill="transparent">
+    </path>
+
+    <line x1="0" y1="275" x2="400" y2="275" 
+        stroke="brown" stroke-width="5px" />
+     <polyline points="250,149 200,175 200,200 175,225 175,250  " 
+        stroke="green" stroke-width="5px" fill="transparent" />
+    
+    <rect x="225" y="200" width="10" height="10" 
+        stroke="black" stroke-width="4px" fill="black">
+        <animateTransform
+                attributeName="transform"
+                attributeType="XML"
+                type="rotate"
+                from="0 225 200"
+                to="360 225 200"
+                dur="5s"
+                repeatCount="3" /></rect>
+    
+    <rect x="265" y="200" width="10" height="10" 
+        stroke="black" stroke-width="4px" fill="black"> </rect>
+
+
+</svg>
